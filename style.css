@@ -1,0 +1,108 @@
+body{
+    background-image: url("./order-summary-component-main/images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+    background-color:hsl(225, 100%, 94%);
+}
+.card-image img{
+    border-radius: 10px 10px 0px 0px;
+    width: 380px;
+    height: 190px;
+
+}
+.card-image{
+    margin-bottom: 0%;
+    height: 190px;
+}
+.card{
+    background-color: white;
+    margin-top: 70px ;
+    margin-bottom: 90px;
+    width: 380px;
+    border:none;
+    height: 530px;
+    border-radius: 10px;
+    display: block;
+}
+
+.card-body{
+    display: block;
+}
+h2{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: rgb(32, 32, 32) 900;
+    padding-top: 30px;
+    margin-top: 0%;
+    text-align: center;
+}
+p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 100;
+    font-size: small;
+    color: hsl(228, 2%, 59%);
+    text-align: center;
+    width: 250px;
+}
+.plan{
+    display: inline-flex;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+.icon img{
+    padding: 5px 5px;
+    height: 37px;
+}
+.heading{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    width: 100px;
+}
+.heading span{
+    font-weight: lighter;
+    color:  hsl(227, 24%, 66%);
+}
+.link {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+    margin-top: 10px;
+    padding-left: 90px;
+}
+.link a:visited{
+    color:hsl(245, 75%, 52%);
+}
+.link a:hover{
+    text-decoration: none;
+    color:  hsl(224, 23%, 55%);
+}
+.card-foot button{
+    padding:10px 90px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    display: flex;
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+.card-foot button:hover{
+  background-color: hsl(247, 63%, 62%);
+}
+.card-foot a{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: hsl(226, 8%, 61%);
+    text-decoration: none;
+    padding-top: 10px;
+}
+.card-foot a:hover{
+    color: black;
+}
